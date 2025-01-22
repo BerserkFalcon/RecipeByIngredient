@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.headerElement{
+    width: 100%;
+    text-align: center;
+    border: 3px solid black;
+}
+
+.bodyElement{
+    border: 3px solid black;
+}
+
+.mainElement{
+    border: 3px solid black;
+    flex-grow: 2;
+    width: 100%;
+    text-align: center;
+}
+
+.footerElement{
+    border: 3px solid black;
+    height: 5vh;
+    width: 100%;
+    text-align: center;
+}

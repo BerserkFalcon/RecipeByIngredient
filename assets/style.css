@@ -2,37 +2,58 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
 }
 
 body{
-    border: 3px solid black;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     min-height: 100vh;
-
 }
 .headerElement{
     width: 100%;
     text-align: center;
-    border: 3px solid black;
+    height: 10vh;
+    border-radius: 10px;
+    /* https://colorffy.com/palettes/AuFzEfaOKKqWQ0lVL6ty */
+    background: linear-gradient(150deg, hsl(31 100% 59.8%), hsl(19.7 74.7% 49.6%), hsl(17.9 80.7% 36.7%), hsl(15 78.9% 29.8%), hsl(9.28 82.9% 22.9%), hsl(6.58 88% 16.3%));
+}
+        
+.formContainer{
+    width: 50vw;
+    height: 50vh;
+    align-self: center;
+    border: 5px solid black;
+    display: flex;
 }
 
-.bodyElement{
-    border: 3px solid black;
+.formContainer section {
+    width: 50%;
+
 }
 
 .mainElement{
-    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
     flex-grow: 2;
     width: 100%;
     text-align: center;
+    border-radius: 10px;
+    /* https://colorffy.com/palette-generator?colors=616033-A1A396-CED3C2-EED3B7-F8E8CF */
+    background: linear-gradient(180deg, oklab(47.9% -0.019 0.062), oklab(71% -0.008 0.017), oklab(85.8% -0.012 0.02), oklab(88.2% 0.018 0.045), oklab(93.7% 0.007 0.037));
+}
+.mainElement button{
+    color:black;
 }
 
 .footerElement{
-    border: 3px solid black;
-    height: 5vh;
+    height: 7vh;
     width: 100%;
     text-align: center;
+    border-radius: 10px;
+    /* https://colorffy.com/palettes/Q5yYItQ0iZzReTgf5GqP */
+    background: linear-gradient(45deg, oklab(38.8% -0.004 -0.015), oklab(42.9% 0.071 0.012), oklab(57% 0.055 0.008), oklab(43.8% 0 -0.046), oklab(22.7% -0.002 -0.029));
 }
